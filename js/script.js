@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(() => {
         stone.style.opacity = '0'; // Start fading out the stone
         setTimeout(() => {
-            stone.style.backgroundImage = "url('../img/pointers.jpg')"; // Change to the pointers image
+            stone.style.backgroundImage = "url('./img/pointers.jpg')"; // Change to the pointers image
             stone.style.opacity = '1'; // Fade in the new image
         }, 1500); // Wait for the fade out to complete (1.5s)
     }, 3000); // Wait 3 seconds after page load
