@@ -20,6 +20,7 @@ body {
     position: relative;
     width: 200px;
     height: 200px;
+    /* Initial image */
     background-image: url('../img/stone.jpg');
     background-size: cover;
     background-position: center;
