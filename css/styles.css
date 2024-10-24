@@ -18,8 +18,8 @@ body {
 
 .stone {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 588px;
+    height: 588px;
     background-image: url('../img/stone.jpg');
     /* Initial image */
     background-size: cover;
@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    transition: background-image 1s ease-in-out, opacity 1.5s ease-in-out;
+    transition: background-image 3s ease-in-out;
     /* Smooth transition */
     opacity: 1;
     /* Initially fully visible */
