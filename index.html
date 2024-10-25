@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
+<!-- <html lang="ru"> -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Трилогия Книг</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/howler.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+        //     var sound = new Howl({
+        //         src: ['sounds/drevne.mp3'],
+        //         autoplay: true,
+        //     });
+        // </script>
 </head>
 
 <body>
+    <!-- Overlay to dim content -->
+    <div id="overlay"></div>
+
     <div class="container">
         <div class="stone">
             <!-- <p class="voice ancient">Древне</p> -->
@@ -20,6 +31,16 @@
             </div>
         </div>
     </div>
+
+    <!-- Start button centered on the page -->
+    <button id="start-btn">Start</button>
+
+
+    <!-- Audio file -->
+    <audio id="drevne" src="sounds/drevne.mp3" type="audio/mpeg" preload="auto"></audio>
+    <audio id="staro" src="sounds/staro.mp3" type="audio/mpeg" preload="auto"></audio>
+
+    <!-- <iframe id="video-player" src="http://localhost:8080/sounds/staro.mp3" allow="autoplay"></iframe> -->
 
     <script src="js/script.js"></script>
 </body>
